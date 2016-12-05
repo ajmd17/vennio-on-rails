@@ -1,0 +1,40 @@
+.navbar {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size: 30px;
+    padding: 10px 0;
+    height: 40px;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar li {
+    display: inline-block;
+    margin: 0 15px;
+    height: 40px;
+    vertical-align: middle;
+    line-height: 40px;
+}
+.navbar li.right {
+    float: right;
+}
+.navbar .nav-link {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    background-color: #109963;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0 8px;
+    transition: background-color 0.5s ease;
+}
+.navbar .nav-link:hover {
+    color: #FFFFFF;
+    background-color: #24B17A;
+}

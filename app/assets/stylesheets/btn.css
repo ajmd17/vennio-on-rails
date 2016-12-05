@@ -1,0 +1,65 @@
+.btn {
+    position: relative;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin: 8px 4px;
+    padding: 6px 14px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+
+    background-color: #E8E8E8;
+    box-shadow: 0 4px 0 0 #CFCFCF;
+    color: #828282;
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+.btn:active {
+    transform : translateY(1px);
+    box-shadow: 0 3px 0 0 #CFCFCF;
+}
+.btn:hover {
+    background-color: #F5F5F5;
+}
+
+.btn.primary {
+    color: #FFFFFF;
+    background-color: #2DB2EA;
+    box-shadow: 0 4px 0 0 #13749D;
+    text-shadow: 1px 1px 2px rgba(80, 80, 80, 0.2);
+}
+.btn.primary:active {
+    box-shadow: 0 3px 0 0 #13749D;
+}
+.btn.primary:hover {
+    background-color: #48C4F8;
+}
+
+.btn.danger {
+    color: #FFFFFF;
+    background-color: #ED4562;
+    box-shadow: 0 4px 0 0 #A01F35;
+    text-shadow: 1px 1px 2px rgba(80, 80, 80, 0.2);
+}
+.btn.danger:active {
+    box-shadow: 0 3px 0 0 #A01F35;
+}
+.btn.danger:hover {
+    background-color: #FF647F;
+}
+
+.btn.accept {
+    color: #FFFFFF;
+    background-color: #109963;
+    box-shadow: 0 4px 0 0 #0A6441;
+    text-shadow: 1px 1px 2px rgba(80, 80, 80, 0.2);
+}
+.btn.accept:active {
+    box-shadow: 0 3px 0 0 #0A6441;
+}
+.btn.accept:hover {
+    background-color: #24B17A;
+}
